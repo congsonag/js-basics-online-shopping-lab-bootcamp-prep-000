@@ -13,7 +13,14 @@ const person = {
   }]
 }
 
-var son = person;
+const collections = [1, [2, [4, [5, [6]],]]]
 
+function find(array, criteriaFn) {
+  for (let i = 0; i < array.length; i++) {
+    if (criteriaFn(array[i])) {
+      return array[i]
+    }
+  }
+}
 
-console.log(son.name)
+console.log(find(collections, [6]))
