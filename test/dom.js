@@ -12,3 +12,7 @@ const person = {
     name: 'Ralph'
   }]
 }
+
+var son = new person;
+
+console.log(son)
