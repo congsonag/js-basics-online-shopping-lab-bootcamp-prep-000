@@ -16,4 +16,4 @@ const person = {
 var son = person;
 
 
-console.log(son)
+console.log(son.name)
