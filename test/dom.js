@@ -15,4 +15,5 @@ const person = {
 
 var son = person;
 
+
 console.log(son)
