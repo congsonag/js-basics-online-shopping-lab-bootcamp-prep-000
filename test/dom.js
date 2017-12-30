@@ -24,6 +24,6 @@ function find(array, criteriaFn) {
 }
 
 function criteriaFn(arr) {
-  return arr === [6]
+  return arr === 1
 }
 console.log(find(collections, criteriaFn([6])))
