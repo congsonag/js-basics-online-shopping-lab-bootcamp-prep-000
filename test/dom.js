@@ -23,4 +23,7 @@ function find(array, criteriaFn) {
   }
 }
 
-console.log(find(collections, [6]))
+function criteriaFn(arr) {
+  return arr
+}
+console.log(find(collections, criteriaFn([6])))
