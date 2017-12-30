@@ -13,6 +13,6 @@ const person = {
   }]
 }
 
-var son = new person;
+var son = person;
 
 console.log(son)
